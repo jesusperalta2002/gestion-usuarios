@@ -1,6 +1,6 @@
-package com.ejemplo.repository;
+package com.ejemplo.gestion_usuarios.repository; // <-- CORREGIDO
 
-import com.ejemplo.model.Usuario;
+import com.ejemplo.gestion_usuarios.model.Usuario; // <-- CORREGIDO
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
